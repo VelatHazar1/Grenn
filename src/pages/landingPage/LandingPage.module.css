@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap";
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.image {
+  width: 25rem;
+  background-color: #d9d9d9;
+  border-radius: 8rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 2rem;
+}
+
+.brand h1 {
+  font-size: 5rem;
+  font-weight: 300;
+  transform: rotate(-90deg);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.section h1 {
+  font-weight: 300;
+}
+.section:nth-of-type(3) {
+  flex-direction: column-reverse;
+}
